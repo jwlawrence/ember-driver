@@ -1,7 +1,7 @@
 {
   "name": "ember-driver",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember wrapper for driver.js",
   "keywords": [
     "ember-addon"
   ],
@@ -23,6 +23,8 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
+    "driver.js": "^0.9.8",
+    "ember-auto-import": "^1.10.1",
     "ember-cli-babel": "^7.18.0",
     "ember-cli-htmlbars": "^4.2.3"
   },
@@ -32,7 +34,6 @@
     "@glimmer/tracking": "^1.0.0",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^1.5.3",
     "ember-cli": "~3.17.0",
     "ember-cli-dependency-checker": "^3.2.0",
     "ember-cli-inject-live-reload": "^2.0.2",

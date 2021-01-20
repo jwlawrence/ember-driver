@@ -1,0 +1,22 @@
+.feature {
+  background: lightgray;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.feature--a {
+  top: 0;
+  left: 0;
+}
+.feature--b {
+  top: 0;
+  right: 0;
+}
+.feature--c {
+  bottom: 0;
+  left: 0;
+}
+.feature--d {
+  bottom: 0;
+  right: 0;
+}
