@@ -8,7 +8,7 @@ module.exports = {
     },
   },
   included() {
-    this._super.included(...arguments);
+    this._super.included.apply(this, arguments);
     this.app.import('node_modules/driver.js/dist/driver.min.css');
   }
 };

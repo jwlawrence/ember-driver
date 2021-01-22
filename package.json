@@ -1,13 +1,15 @@
 {
   "name": "ember-driver",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Ember wrapper for driver.js",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "driver.js",
+    "tour"
   ],
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Joshua Lawrence",
   "directories": {
     "doc": "doc",
     "test": "tests"
